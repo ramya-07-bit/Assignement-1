@@ -21,7 +21,6 @@ An end-to-end Machine Learning Operations (MLOps) project that predicts customer
 - [Deployment](#deployment)
 - [Troubleshooting](#troubleshooting)
 - [Future Improvements](#future-improvements)
-- [Author](#author)
 
 ## Project Overview
 
@@ -165,15 +164,15 @@ Install the following tools:
 ### 1. Open the project directory
 
 ```powershell
-cd "C:\Users\Pavan R\OneDrive\Documents\MLops\assignment1"
+cd assignment1
 ```
 
 ### 2. Activate the virtual environment
 
-If the shared virtual environment is located at `C:\Users\Pavan R\OneDrive\Documents\MLops\.venv`, activate it using:
+Activate your Python virtual environment:
 
 ```powershell
-& "C:\Users\Pavan R\OneDrive\Documents\MLops\.venv\Scripts\Activate.ps1"
+.\.venv\Scripts\Activate.ps1
 ```
 
 ### 3. Install dependencies
@@ -455,15 +454,6 @@ Check that the Dockerfile is valid and that all referenced files exist.
 - Publish versioned Docker images to a container registry.
 - Add secure cloud deployment and monitoring.
 - Document the final verified evaluation results.
-
-## Author
-
-**Pavan R.**
-
-B.E. in Data Science  
-T. John Institute of Technology, Bengaluru
-
-GitHub: https://github.com/pavan-r1
 
 ## License
 
